@@ -12,7 +12,7 @@ GPIO.setup(0, GPIO.OUT)  # ustawienie gpio0 jako wyjscie
 GPIO.setup(1, GPIO.OUT)
 GPIO.setup(4, GPIO.IN, pull_up_down=GPIO.PUD_UP)  # ustawienie gpio 4 na pin WEJSCIOWY
 GPIO.setup(17, GPIO.IN,pull_up_down=GPIO.PUD_UP)
-"GPIO.wait_for_edge(26, GPIO.FALLING) #czekamy na wciśnięcie przycisku który jest podpiety do pinu 26. Po naciśnięciu przechodzimy do dalszej częsci programu"
+
 
 
 while True:
